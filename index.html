@@ -1,36 +1,55 @@
 <!DOCTYPE html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<html>
+<html  lang="en" dir="ltr">
 <head>
+	<meta charset="utf-8">
 	<title>RISHABH</title>
-	<link rel="icon" href="rlogo.png" />
+    <link rel="icon" href="rlogo.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="/eel.js" type="text/javascript"></script>
-    
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style.css"> 
+	<link rel="stylesheet" href="css.css">
 </head>
 <body>
 	<div class="Mydiv">
+<header>
+	<nav>
+		<ul id="nav_bar">
+			<li class="nav-links" id="gmail"><a href="//translate.google.co.in/">Translator</a></li>
+                        <li class="nav-links"><a href="https://www.wikipedia.org/">Wikipedia</a></li>
+                        <li id="sign_in"><a class="gb_D gb_Na gb_i" href="https://gmail.com">Email</a></li>
+		</ul>
+	</nav>
+</header>
+
 <div class="google">
-	<a  id="google_logo"> 
-<font color="#9A06C2" size="90px"><i><b>R</b></i></font>
-<font color="#9A06C2" size="90px"><i><b>I</b></i></font>
-<font color="#9A06C2" size="90px"><i><b>S</b></i></font>
-<font color="#0F03C8" size="90px"><i><b>H</b></i></font>
-<font color="#E607F0" size="90px"><i><b>A</b></i></font>
-<font color="#0F03C8" size="90px"><i><b>B</b></i></font>
-<font color="#C60606" size="90px"><i><b>H</b></i></font>
+	<div id="google_logo" >
+		<a href="https://rishabhsahil.github.io/#gsc.tab=0&gsc.q=RISHABH"><font color="#9A06C2" size="90px"><i><b>R</b></i></font>
+		<font color="#9A06C2" size="90px"><i><b>I</b></i></font>
+		<font color="#9A06C2" size="90px"><i><b>S</b></i></font>
+		<font color="#0F03C8" size="90px"><i><b>H</b></i></font>
+		<font color="#E607F0" size="90px"><i><b>A</b></i></font>
+		<font color="#0F03C8" size="90px"><i><b>B</b></i></font>
+		<font color="#C60606" size="90px"><i><b>H</b></i></font></a>
 </div>
-<script async src="https://cse.google.com/cse.js?cx=9f8f72b276afcd2c9"></script>
-<script src="java.js"></script>
+<div class="wrapper">
+    <form id="frmsearch" method="get" />
+      <div class="search-input">
+        <a href="google.com" target="_blank" hidden></a>
+        <input type="text" placeholder="Type to search..">
+        <div class="autocom-box">
+          <!-- here list are inserted from javascript -->
+        </div>
 
-<div class="form"></div>
-<form id="frmsearch" method="get" />
-
-<div class="gcse-search"></div>
-</div>
-	</ul>
-</footer>
+		<button type="submit" class="icon"><i class="fa fa-search"></i></div>
+	</button>
+    </div>
+     <script src="suggestions.js"></script> 
+     <script src="script.js"></script>  
+     <div class="gcse-search"></div>
+    </div>
 </div>
 </body>
 </html>
