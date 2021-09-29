@@ -12,7 +12,7 @@ inputBox.onkeyup = (e)=>{
     let emptyArray = [];
     if(userData){
         icon.onclick = ()=>{
-            webLink = `https://rishabhsahil.github.io/search.github.io/#gsc.tab=0&gsc.q=${userData}`;
+            webLink = `search.html#gsc.tab=0&gsc.q=${userData}`;
             linkTag.setAttribute("href", webLink);
             linkTag.click();
         }
@@ -40,7 +40,7 @@ function select(element){
     let selectData = element.textContent;
     inputBox.value = selectData;
     icon.onclick = ()=>{
-        webLink = `https://rishabhsahil.github.io/search.github.io/#gsc.tab=0&gsc.q=${selectData}`;
+        webLink = `search.html#gsc.tab=0&gsc.q=${selectData}`;
         linkTag.setAttribute("href", webLink);
         linkTag.click();
     }
