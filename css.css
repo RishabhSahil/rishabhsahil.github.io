@@ -53,7 +53,7 @@ li.nav-links a:hover {
 	display: block;
 	margin: 0 auto;
 	clear: both;
-	padding-top: 100px;
+	padding-top: 0px;
 	padding-bottom: 0px;
 	opacity: 0.7;
 }
