@@ -52,4 +52,4 @@ document
         }
     });
 
-weather.fetchWeather("Arrah");
+weather.fetchWeather("indian");
