@@ -6,6 +6,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    background-color: #26547C;
+}
+
 header {
     width: 100%;
 }
