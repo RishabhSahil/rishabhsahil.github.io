@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr" onclick="insert()">
+<html lang="en" dir="ltr">
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0QP8L901HH"></script>
@@ -16,7 +16,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title id="display"></title>
+    <title>RISHABH</title>
     <meta name="google-site-verification" content="Pkuth5cX-tSXV9w7BMfutTAYGCs6mM9wuxZ3vZjHXYg" />
     <link rel="icon" href="rlogo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -56,42 +56,11 @@
                 </a>
             </div>
         </div>
-        <div class="wrapper">
-            <form action="/rishabhsk.github.io/search.html" method="get" role="search" required />
-            <div class="search-input" id="display">
-                <a href="" target="_blank" hidden></a>
-                <input type="text" name="q" class="search-text"  id="title" part="control" title="Enter search here" placeholder="Type to search. . ." onkeyup="Allow()"/>
-                <button type="submit" class="icon" title="Click to search"><i class="fa fa-search"></i></div></button>
-            </div>
-        </div>
 		<script async src="https://cse.google.com/cse.js?cx=9f8f72b276afcd2c9"></script>
 		<div class="wrapper-searchresult">
-			<div class="search-input-result">
-				<div class="gcse-searchresults-only"></div>
+				<div class="gcse-search"></div>
 			</div>
 		</div>
 	</div>	
-
-<script type="text/javascript">
-var titles  = [];
-var titleInput  = document.getElementById("title");
-var messageBox  = document.getElementById("display");
-
-function Allow(){
-    if (!user.title.value.match(/[a-zA-Z]$/) && user.title.value !="") {
-        user.title.value="";
-    }
-}
-
-function insert () {
-    titles.push(titleInput.value);
-    clearAndShow();
-}
-
-function clearAndShow () {
-    messageBox.innerHTML = "";
-    messageBox.innerHTML +=titles.join(" ") + " -RISHABH";
-}
-</script>
 </body>
 </html>
