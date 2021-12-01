@@ -1,4 +1,3 @@
-
 document.getElementById('frmsearch').onsubmit = function() {
     query = document.getElementById('textSearch').value;
     if(query==false){
