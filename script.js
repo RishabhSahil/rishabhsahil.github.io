@@ -1,10 +1,10 @@
 
 document.getElementById('frmsearch').onsubmit = function() {
-    window.location = 'search.html?q=' + document.getElementById('textSearch').value;
     query = document.getElementById('textSearch').value;
     if(query==false){
         // alert("Please Enter Your Query")
-        console.log(query)
+        console.log("please enter your query");
+        return false
     }
     else{
         window.location = 'search.html?q=' + query
