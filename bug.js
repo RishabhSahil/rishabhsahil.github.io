@@ -33,7 +33,7 @@ function update(){
         <th scope="row">${index + 1}</th>
         <td>${element[0]}</td>
         <td>${element[1]}</td>
-        
+        <td><button class="btn btn-primary">No repley</button>
         </td>
         </tr>
         `;
