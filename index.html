@@ -32,7 +32,7 @@
 
         <div class="google">
             <div id="google_logo">
-                <a href="search.html#gsc.tab=0&gsc.q=RISHABH" id="clicktomove" title="Click To Search RISHABH">
+                <a href="search.html?q=rishabh" id="clicktomove" title="Click To Search RISHABH">
                     <font color="#9A06C2" size="90px"><i><b>R</b></i></font>
                     <font color="#9A06C2" size="90px"><i><b>I</b></i></font>
                     <font color="#9A06C2" size="90px"><i><b>S</b></i></font>
@@ -54,18 +54,21 @@
                 <button type="submit" class="icon" title="Click to search"><i class="fa fa-search"></i></div>
 				</button>
                 <div>
-                    <ul id="nav_bar_search">
-                        <li onclick="wikipediasearch()"><a href="#"><i class="fa fa-wikipedia-w" id="wikipeida-searchq-q"></i></a></li>
-                        <li onclick="mapsearch()"><a href="#"><i class='fas fa-map-marker-alt' id="map-searchq"></i></a></li>
-                        <li onclick="youtubesearch()"><a href="#"><i class="fa fa-youtube-play" id='youtube-searchq'></i></a></li>
-                        <li onclick="songm()"><a href="#"><i class="fas fa-music" id="music-searchq-q"></i></a></li>
-                    </ul>
-                    <ul id="nav_bar_search">
-                        <li id="wiki-search" onclick="wikipediasearch()"><a href="#">Wikipedia</a></li>
-                        <li id="map-search" onclick="mapsearch()"><a href="#">Map</a></li>
-                        <li id="youtube-search-q" onclick="youtubesearch()"><a href="#">YouTube</a></li>
-                        <li id="music-search-q" onclick="songm()"><a href="#">Music</a></li>
-                    </ul>
+                    <table cellspacing='25'>
+                        <tr>
+                            <th onclick="wikipediasearch()"><a href="#"><i class="fa fa-wikipedia-w" id="wikipeida-searchq-q"></i></a></th>
+                            <th onclick="mapsearch()"><i class='fas fa-map-marker-alt' id="map-searchq"></i></a></th>
+                            <th onclick="youtubesearch()"><a href="#"><i class="fa fa-youtube-play" id='youtube-searchq'></i></a></th>
+                            <th onclick="songm()"><i class="fas fa-music" id="music-searchq-q"></i></th>
+                        </tr>
+                        <tr>
+                            <td id="wiki-search" onclick="wikipediasearch()"><a href="#">Wikipedia</a></td>
+                            <td id="map-search" onclick="mapsearch()"><a href="#">Map</a></td>
+                            <td id="youtube-search-q" onclick="youtubesearch()"><a href="#">YouTube</a></td>
+                            <td id="music-search-q" onclick="songm()"><a href="#">Music</a></td>
+
+                        </tr>
+                    </table>
                 </div>
             </div>
         </div>
