@@ -28,13 +28,13 @@ ul {
 
 #nav_bar li {
     display: inline-block;
-    padding: 8px;
+    padding: 08px;
 }
 
 #nav_bar #sign_in {
     background-color: blue;
     padding: 7px 15px;
-    border-radius: 3px;
+    border-radius: 5.9px;
     margin-right: 25px;
     font-weight: bold;
 }
@@ -49,11 +49,15 @@ li.nav-links a:hover {
 }
 
 #sign_in:hover {
-    box-shadow: 1px 1px 5px rgb(5, 5, 5);
+    box-shadow: 3px 3px 9px rgb(245, 245, 245);
+    border-bottom: solid 1.8px whitesmoke;
+    border-left:  solid 1.8px whitesmoke;
 }
 
 #sign_in {
     color: #fff;
+    border-bottom: solid 1.8px whitesmoke;
+    border-left:  solid 1.8px whitesmoke;
 }
 
 .google #google_logo {
@@ -64,10 +68,17 @@ li.nav-links a:hover {
     padding-top: 0px;
     padding-bottom: 0px;
     transform-style: preserve-3d;
+    border-radius: 5px;
 }
 
-.google #google_logo #clicktomove:hover {
-    box-shadow: 0px 2px 7px rgba(0, 0, 2, 0.1);
+/* .google #google_logo #clicktomove:hover {
+    box-shadow: 0px 2px 0px whitesmoke;
+    border-right: solid white;
+    border-radius: 5px;
+} */
+
+.google #google_logo #clicktomove{
+    border-bottom: solid 1.8px white;
 }
 
 .button {
@@ -125,4 +136,96 @@ footer ul a:hover {
 
 .footer-right {
     float: right;
+}
+.search-tool{
+    margin-left: 10%;
+}
+
+#nav_bar_search {
+    text-align: center;
+}
+
+#nav_bar_search li {
+    display: inline-block;
+    padding: 08px;
+}
+#youtube-searchq{
+    font-size:300%;
+    color: red;
+}
+#map-searchq{
+    font-size:48px;
+    color:rgb(26, 133, 7);
+    border-bottom: solid rgb(251, 8, 8);
+}
+#wikipeida-searchq-q{
+    font-size:250%;
+    color:black;
+}
+
+#wikipeida-searchq-q:hover{
+    color: white;
+    
+}
+
+#map-searchq:hover{
+    color:rgb(11, 59, 2);
+    border-bottom: solid rgb(104, 4, 4);
+}
+
+#youtube-searchq:hover{
+    color: darkred;
+}
+#youtube-search-q{
+    background-color: #0763f8fd;
+    border-radius: 5px;
+    border: solid 0.1px white;
+    border-left: black;
+    border-top: black;
+}
+#youtube-search-q:hover{
+    box-shadow: 1.8px 1.8px 0px rgba(236, 242, 248, 0.931);
+    border-bottom: solid 0.1px white;
+}
+#map-search{
+    background-color: #0763f8fd;
+    border-radius: 5px;
+    border: solid 0.1px white;
+    border-left: black;
+    border-top: black;
+}
+#map-search:hover{
+    box-shadow: 1.8px 1.8px 0px rgba(236, 242, 248, 0.931);
+    border-bottom: solid 0.1px white;
+}
+#wiki-search{
+    background-color: #0763f8fd;
+    border-radius: 5px;
+    border: solid 0.1px white;
+    border-left: black;
+    border-top: black;
+}
+#wiki-search:hover{
+    box-shadow: 1.8px 1.8px 0px rgba(236, 242, 248, 0.931);
+    border-bottom: solid 0.1px white;
+}
+
+#music-searchq-q{
+    font-size:250%;
+    color:rgb(5, 62, 168);
+}
+#music-searchq-q:hover{
+    font-size:250%;
+    color:rgb(1, 27, 75);
+}
+#music-search-q{
+    background-color: #0763f8fd;
+    border-radius: 5px;
+    border: solid 0.1px white;
+    border-left: black;
+    border-top: black;
+}
+#music-search-q:hover{
+    box-shadow: 1.8px 1.8px 0px rgba(236, 242, 248, 0.931);
+    border-bottom: solid 0.1px white;
 }

@@ -24,8 +24,7 @@
         <header>
             <nav>
                 <ul id="nav_bar">
-                    <li class="nav-links" id="gmail"><a href="https://translate.google.co.in/" title="Translate">Translate</a></li>
-                    <li class="nav-links"><a href="https://www.wikipedia.org/" title="Wikipedia">Wikipedia</a></li>
+                    <li class="nav-links"><a href="https://translate.google.co.in/" title="Translate">Translate</a></li>
                     <li id="sign_in"><a class="gb_D gb_Na gb_i" href="Risk-Bug-error.html" title="Bug-Error">Bug Error</a></li>
                 </ul>
             </nav>
@@ -54,6 +53,20 @@
                 </div>
                 <button type="submit" class="icon" title="Click to search"><i class="fa fa-search"></i></div>
 				</button>
+                <div>
+                    <ul id="nav_bar_search">
+                        <li onclick="wikipediasearch()"><a href="#"><i class="fa fa-wikipedia-w" id="wikipeida-searchq-q"></i></a></li>
+                        <li onclick="mapsearch()"><a href="#"><i class='fas fa-map-marker-alt' id="map-searchq"></i></a></li>
+                        <li onclick="youtubesearch()"><a href="#"><i class="fa fa-youtube-play" id='youtube-searchq'></i></a></li>
+                        <li onclick="songjio()"><a href="#"><i class="fas fa-music" id="music-searchq-q"></i></a></li>
+                    </ul>
+                    <ul id="nav_bar_search">
+                        <li id="wiki-search" onclick="wikipediasearch()"><a href="#">Wikipedia</a></li>
+                        <li id="map-search" onclick="mapsearch()"><a href="#">Map</a></li>
+                        <li id="youtube-search-q" onclick="youtubesearch()"><a href="#">YouTube</a></li>
+                        <li id="music-search-q" onclick="songjio()"><a href="#">Music</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
         <script src="script.js"></script>
