@@ -76,7 +76,7 @@ function youtubesearch(){
     }
 } 
 
-function songjio(){
+function songm(){
     query = document.getElementById('textSearch').value;
     if(query==false){
             // alert("Please Enter Your Query")
@@ -122,7 +122,7 @@ function youtubesearchq(){
     }
 } 
 
-function songjioq(){
+function songmq(){
     query = document.getElementById('gsc-i-id1').value;
     if(query==false){
             // alert("Please Enter Your Query")
