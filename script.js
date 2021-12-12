@@ -1,7 +1,7 @@
 function wikipediasearch(){
     query = document.getElementById('textSearch').value;
     if(query==false){
-        // alert("Please Enter Your Query")
+        
         console.log("please enter your query");
         window.location = 'https://wikipedia.org'
         return false;
@@ -18,7 +18,7 @@ function wikipediasearch(){
 function wikipediasearchq(){
     query = document.getElementById('gsc-i-id1').value;
     if(query==false){
-        // alert("Please Enter Your Query")
+        
         console.log("please enter your query");
         window.location = 'https://wikipedia.org'
         return false;
@@ -33,7 +33,7 @@ function wikipediasearchq(){
 function mapsearch(){
     query = document.getElementById('textSearch').value;
     if(query==false){
-        // alert("Please Enter Your Query")
+        
         console.log("please enter your query");
         window.location = 'https://www.google.com/maps'
         return false;
@@ -48,7 +48,6 @@ function mapsearch(){
 function youtubesearch(){
     query = document.getElementById('textSearch').value;
     if(query==false){
-        // alert("Please Enter Your Query")
         console.log("please enter your query");
         window.location = 'https://www.youtube.com'
         return false;
@@ -63,7 +62,7 @@ function youtubesearch(){
 function songm(){
     query = document.getElementById('textSearch').value;
     if(query==false){
-            // alert("Please Enter Your Query")
+            
         console.log("please enter your query");
         window.location = 'https://gaana.com/'
         return false;
@@ -79,7 +78,7 @@ function songm(){
 function mapsearchq(){
     query = document.getElementById('gsc-i-id1').value;
     if(query==false){
-        // alert("Please Enter Your Query")
+        
         console.log("please enter your query");
         window.location = 'https://www.google.com/maps'
         return false;
@@ -94,7 +93,7 @@ function mapsearchq(){
 function youtubesearchq(){
     query = document.getElementById('gsc-i-id1').value;
     if(query==false){
-        // alert("Please Enter Your Query")
+        
         console.log("please enter your query");
         window.location = 'https://www.youtube.com'
         return false;
@@ -109,7 +108,7 @@ function youtubesearchq(){
 function songmq(){
     query = document.getElementById('gsc-i-id1').value;
     if(query==false){
-            // alert("Please Enter Your Query")
+            
         console.log("please enter your query");
         window.location = 'https://gaana.com/'
         return false;
@@ -124,7 +123,7 @@ function songmq(){
 document.getElementById('frmsearch').onsubmit = function() {
     query = document.getElementById('textSearch').value;
     if(query==false){
-        // alert("Please Enter Your Query")
+        
         console.log("please enter your query");
         return false
     }
