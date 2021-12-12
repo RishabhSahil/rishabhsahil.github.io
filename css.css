@@ -71,12 +71,6 @@ li.nav-links a:hover {
     border-radius: 5px;
 }
 
-/* .google #google_logo #clicktomove:hover {
-    box-shadow: 0px 2px 0px whitesmoke;
-    border-right: solid white;
-    border-radius: 5px;
-} */
-
 .google #google_logo #clicktomove{
     border-bottom: solid 1.8px white;
 }
