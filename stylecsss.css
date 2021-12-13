@@ -53,15 +53,17 @@ li.nav-links a:hover {
 }
 
 #sign_in:hover {
-    box-shadow: 3px 3px 9px rgb(245, 245, 245);
-    border-bottom: solid 1.8px whitesmoke;
-    border-left:  solid 1.8px whitesmoke;
+    color: #fff;
+    border-right: black;
+    border-top: black;
+    box-shadow: 1px 1px 8px whitesmoke;
 }
 
 #sign_in {
     color: #fff;
-    border-bottom: solid 1.8px whitesmoke;
-    border-left:  solid 1.8px whitesmoke;
+    border-right: black;
+    border-top: black;
+    box-shadow: 2px 3px 0px 0px whitesmoke;
 }
 
 .google #google_logo {
@@ -90,7 +92,6 @@ li.nav-links a:hover {
     font-size: 18px;
     margin: 0px;
     background: rgba(0, 0, 0, 0.1);
-    transform: translateZ(30px);
     border-top: 1px solid rgba(255, 255, 255, 0.8);
     border-left: 1px solid rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(3px);
