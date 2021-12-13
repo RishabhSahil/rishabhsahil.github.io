@@ -6,6 +6,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     background-image: url(https://source.unsplash.com/user/erondu/1600x900);
     background-size: cover;
@@ -144,10 +148,12 @@ li.nav-links a:hover {
     border: solid 0.1px white;
     border-left: black;
     border-top: black;
+    box-shadow: 1.8px 1.8px 0px rgba(236, 242, 248, 0.931);
 }
 #youtube-search-q:hover{
-    box-shadow: 1.8px 1.8px 0px rgba(236, 242, 248, 0.931);
+    background-color: #084fc2fd;
     border-bottom: solid 0.1px white;
+    box-shadow: 0px 0px 7px rgba(236, 242, 248, 0.931);
 }
 #map-search{
     background-color: #0763f8fd;
@@ -155,10 +161,12 @@ li.nav-links a:hover {
     border: solid 0.1px white;
     border-left: black;
     border-top: black;
+    box-shadow: 1.8px 1.8px 0px rgba(236, 242, 248, 0.931);
 }
 #map-search:hover{
-    box-shadow: 1.8px 1.8px 0px rgba(236, 242, 248, 0.931);
+    background-color: #084fc2fd;
     border-bottom: solid 0.1px white;
+    box-shadow: 0px 0px 7px rgba(236, 242, 248, 0.931);
 }
 #wiki-search{
     background-color: #0763f8fd;
@@ -166,10 +174,12 @@ li.nav-links a:hover {
     border: solid 0.1px white;
     border-left: black;
     border-top: black;
+    box-shadow: 1.8px 1.8px 0px rgba(236, 242, 248, 0.931);
 }
 #wiki-search:hover{
-    box-shadow: 1.8px 1.8px 0px rgba(236, 242, 248, 0.931);
+    background-color: #084fc2fd;
     border-bottom: solid 0.1px white;
+    box-shadow: 0px 0px 7px rgba(236, 242, 248, 0.931);
 }
 
 #music-searchq-q{
