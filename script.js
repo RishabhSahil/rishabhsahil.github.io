@@ -128,42 +128,42 @@ document.getElementById('frmsearch').onsubmit = function() {
         return false
     }
     
-    if("rishabh kon hai" in query){
+    if(query=="rishabh kon hai"){
         
         window.location = "https://linktr.ee/_rishabh_yaduvanshi_"
         return false
     }
  
-     if("who is rishabh" in query){
+     if(query=="who is rishabh"){
         
         window.location = "https://linktr.ee/_rishabh_yaduvanshi_"
         return false
     }
-     if("who are rishabh" in query){
+     if(query=="who are rishabh"){
         
         window.location = "https://linktr.ee/_rishabh_yaduvanshi_"
         return false
     }    
  
     }
-     if("rishabh info" in query){
+     if(query=="rishabh info"){
         
         window.location = "https://linktr.ee/_rishabh_yaduvanshi_"
         return false
     }     
 
-    if("sahil kon hai" in query){
+    if(query=="sahil kon hai"){
         
         window.location = "https://linktr.ee/_rishabh_yaduvanshi_"
         return false
     }
  
-     if("who is sahil" in query){
+     if(query=="who is sahil"){
         
         window.location = "https://linktr.ee/_rishabh_yaduvanshi_"
         return false
     }
-     if("who are sahil" in query){
+     if(query=="who are sahil"){
         
         window.location = "https://linktr.ee/_rishabh_yaduvanshi_"
         return false
@@ -173,7 +173,7 @@ document.getElementById('frmsearch').onsubmit = function() {
      if("sahil info" in query){
         
         window.location = "https://linktr.ee/_rishabh_yaduvanshi_"
-        return false
+        return true
     } 
 
     else{
