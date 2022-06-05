@@ -129,7 +129,7 @@ document.getElementById('frmsearch').onsubmit = function() {
     }
 
     else{
-        window.location = 'search.html?q=' + query
+        window.location = 'search?q=' + query
         return false;
 
     }
