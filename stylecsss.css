@@ -75,7 +75,9 @@ li.nav-links a:hover {
     padding-bottom: 0px;
     transform-style: preserve-3d;
     border-radius: 5px;
-    backdrop-filter: blur(10px);
+}
+.google_logo {
+        backdrop-filter: blur(20px);
 }
 
 /* .google #google_logo #clicktomove:hover{
